@@ -27,7 +27,7 @@ def defence(char_name: str, char_class: str) -> str:
 
 
 def special(char_name: str, char_class: str) -> str:
-    """Описывает специальный умение каждого персонажа."""
+    """Описывает специальное умение каждого персонажа."""
     if char_class == 'warrior':
         return (f'{char_name} применил специальное умение '
                 f'«Выносливость {80 + 25}»')
